@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* Reset영역 시작 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+/* Reset영역 끝 */
+/* 공통영역 시작 */
+div#wrap{
+    width: 1000px;
+    border: 1px solid rgb(18, 133, 98);
+    background-color: #fff;
+    margin: 0 auto;
+}
+/* 공통영역 시작 */
+/* header#header영역 시작 */
+#header{
+    height: 100px;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+#header p{
+    width: 360px;
+    height: 80px;
+    line-height: 80px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    
+    border-radius: 10px;
+    margin:10px;
+    background-color: rgb(255, 167, 67);
+
+}
+
+#header #gnb #mainMenu{
+    list-style: none; 
+    border: 1px solid rgb(255, 167, 67);
+    background-color: #ffffff;
+    margin: 50px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header #gnb #mainMenu>li{
+    float: left; 
+}
+
+#header #gnb #mainMenu>li>a{
+    width: 100px;
+    color: rgb(255, 167, 67);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    
+}
+
+#header #gnb #mainMenu>li>a:hover{
+    color: #ffffff;
+    background-color: rgb(255, 167, 67);
+}
+
+#header #gnb .subMenu{
+    list-style: none;
+}
+
+#header #gnb .subMenu li a{
+    width: 100px;
+    color: #fff;
+
+
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 0;
+   background-color: rgb(255, 167, 67);
+    display: inline-block;
+}
+
+#header #gnb .subMenu li a:hover{
+    color: rgb(255, 167, 67);
+    background-color: #ffffff;
+}
+/* header#header영역 끝 */
+#slideImg{
+    height: 300px;
+    border: 1px solid #000;
+    background-image: url();
+}
